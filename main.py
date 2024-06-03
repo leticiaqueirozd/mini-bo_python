@@ -3,6 +3,7 @@ import time
 from real_robot import RealRobot
 from test_robot import TestRobot
 
+
 system = True
 robot = None
 while system:
@@ -84,7 +85,7 @@ while system:
                 robot.voltar_base()
 
             elif choice == 0:
-                print(robot.loca_bolas(), '\n')
+                print(robot.balls_locations(), '\n')
 
             else:
                 print('Escolha invalida')
